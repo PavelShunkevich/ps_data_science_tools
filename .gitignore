@@ -1,14 +1,93 @@
-.architect
-bootstrap.css
-bootstrap.js
-bootstrap.json
-bootstrap.jsonp
+# ignore files for library
 build/
-classic.json
-classic.jsonp
-ext/
-modern.json
-modern.jsonp
-resources/sass/.sass-cache/
-resources/.arch-internal-preview.css
-.arch-internal-preview.css
+dist/
+*.egg-info/
+__pycache__/
+
+# Ignore files and folders created by IDEs
+.idea/
+../.idea/
+*.iml
+*.vscode/
+*.pydevproject
+
+# Ignore temporary files
+*~
+*.bak
+*.swp
+*.swo
+*.log
+*.tmp
+.DS_Store
+
+# Ignore Python bytecode and __pycache__
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+*/.venv/
+**/venv/
+
+# Ignore files created during debugging
+*.dbg
+*.out
+*.dump
+
+# Ignore MLflow directory
+mlruns/
+
+# Ignore .dvc directory and yaml file (Data Version Control)
+.dvc/
+*.dvc
+dvc.lock
+
+# Ignore local data
+data/
+**/data/
+
+# Ignore trained models
+trained_model/
+**/trained_model/
+
+# Ignore directories where tokens and configs are stored
+tokenizer/
+**/tokenizer/
+
+# Ignore files with passwords
+*.env
+*.ini
+credentials.json
+config.yaml
+secrets.yaml
+
+# Ignore docker files
+docker-compose.yml
+Dockerfile
+docker/
+
+# Ignore Jupyter Notebook files
+*.ipynb_checkpoints/
+*.ipynb
+.ipynb_checkpoints/*
+
+# Ignore report files
+*.csv
+*.xls
+*.xlsx
+*.txt
+
+# Ignore .safetensors files
+*.safetensors
+
+# Ignore OS specific files
+Thumbs.db
+*.DS_Store
+ehthumbs.db
+*.trash
+*.cache
+*.Thumbs.db
