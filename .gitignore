@@ -46,10 +46,6 @@ mlruns/
 *.dvc
 dvc.lock
 
-# Ignore local data
-data/
-**/data/
-
 # Ignore trained models
 trained_model/
 **/trained_model/
